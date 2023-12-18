@@ -1,6 +1,5 @@
-package pl.babiak.ruslana.spring.learn.Service;
+package pl.babiak.ruslana.spring.learn.service;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import pl.babiak.ruslana.spring.learn.repository.NoteRepository;
 

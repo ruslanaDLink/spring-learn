@@ -1,10 +1,9 @@
 package pl.babiak.ruslana.spring.learn.web;
 
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import pl.babiak.ruslana.spring.learn.Service.NoteService;
+import pl.babiak.ruslana.spring.learn.service.NoteService;
 
 import java.util.logging.Logger;
 
