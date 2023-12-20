@@ -22,7 +22,7 @@ public class NoteService {
 
     public void read() {
         LOGGER.info("read(" + ")");
-        noteRepository.read();
+        //noteRepository.read();
         LOGGER.info("read()=");
     }
 

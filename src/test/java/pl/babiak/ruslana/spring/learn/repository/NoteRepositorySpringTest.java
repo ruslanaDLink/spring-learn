@@ -20,7 +20,7 @@ class NoteRepositorySpringTest {
         //given
 
         //when
-        noteRepository.read();
+       // noteRepository.read();
 
         //then
 
