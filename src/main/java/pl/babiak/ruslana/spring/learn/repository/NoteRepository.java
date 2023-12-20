@@ -33,3 +33,5 @@ public interface NoteRepository extends JpaRepository<NoteEntity, Long> {
 //JDBC - 30 lines
 //Hibernate - 4 lines
 //Data JPA - 1
+//TODO 20/12/2023
+//analogicznie do NoteRepository stworzyc authorRepository + testy dla crud
