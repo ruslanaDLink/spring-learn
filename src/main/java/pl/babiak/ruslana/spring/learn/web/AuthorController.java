@@ -8,7 +8,7 @@ import pl.babiak.ruslana.spring.learn.service.AuthorService;
 import java.util.logging.Logger;
 
 @Controller
-@RequestMapping(value = "/author")
+@RequestMapping(value = "/authors")
 public class AuthorController {
     private static final Logger LOGGER = Logger.getLogger(AuthorController.class.getName());
 
