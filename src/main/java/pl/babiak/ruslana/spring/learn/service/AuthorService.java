@@ -21,7 +21,7 @@ public class AuthorService {
 
     public void read(){
         LOGGER.info("read(" + ")");
-        authorRepository.read();
+       // authorRepository.read();
         LOGGER.info("read()=");
     }
 
