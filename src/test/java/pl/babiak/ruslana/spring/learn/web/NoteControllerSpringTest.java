@@ -17,11 +17,12 @@ class NoteControllerSpringTest {
     }
 
     @Test
-    void read() {
+    void read() throws Exception {
         //given
+        Long id = 5734783L;
 
         //when
-        String age = noteController.read("18");
+        String age = noteController.read("18", id);
 
         //then
         Assertions.assertNotNull(age, "Age is null.");
