@@ -24,9 +24,9 @@ public class NoteController {
     }
 
     @GetMapping
-    public String read(String age) {
-        LOGGER.info("read(" + age + ")");
-        noteService.read();
+    public String read(String age, Long id) throws Exception {
+        LOGGER.info("read(" + age + id + ")");
+        noteService.read(id);
         LOGGER.info("read()=");
         return "note-read.html";
     }
